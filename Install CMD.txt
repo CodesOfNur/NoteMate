@@ -1,0 +1,36 @@
+npm run dev
+
+//install axios
+
+npm install axios
+
+//shadcn component 
+
+npx shadcn@latest init
+npx shadcn@latest add button
+npx shadcn@latest add progress
+npx shadcn@latest add textarea
+npx shadcn@latest add select
+npx shadcn@latest add card
+
+
+//drizzle 
+
+npm i drizzle-orm @neondatabase/serverless dotenv
+npm i -D drizzle-kit
+npx drizzle-kit push
+npx drizzle-kit studio //run on local server
+
+//clerk authentication
+
+npm install @clerk/nextjs
+
+//inngest server 
+
+npm install inngest
+npx inngest-cli@latest dev //run on local server
+
+//AI Model
+npm i uuid
+npm i @google/generative-ai
+npm install @ai-sdk/google

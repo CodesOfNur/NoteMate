@@ -41,9 +41,3 @@ export const STUDY_TYPE_CONTENT_TABLE = pgTable("studyTypeContent", {
   content: json(),
   status: varchar().default("Generating"),
 });
-
-export const PAYMENT_RECORD_TABLE = pgTable("paymentRecord", {
-  id: serial().primaryKey(),
-  customerId: varchar(),
-  sessionId: varchar(),
-});
